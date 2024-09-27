@@ -22,6 +22,8 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 
 An interactive **Tableau dashboard** used to report and explore sales trends can be found [here](https://github.com/HamidSherz/Web-Marketing-Analysis-2019/data_cleanup.sql).
 
+The processed **dataset** for this analysis can be accessed [here](https://docs.google.com/spreadsheets/d/188wNbFxbYcl5e9wCJU6vVWpz04zDUFDOYgOxyP1ilU0/edit?usp=sharing).
+
 # Data Structure & Initial Checks
 
 The main database for this project consists of approximately 250,000 rows, capturing a wide range of user interactions and website metrics. The data structure includes multiple tables that contain essential information on user sessions, page views, and engagement metrics. An Entity Relationship Diagram (ERD) is provided below to illustrate the relationships between these tables.
