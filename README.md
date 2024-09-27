@@ -71,7 +71,7 @@ Tablet usage remains low and inconsistent, with time on page and engagement metr
 
 ![Average times by device](Visuals/Average_times_by_device.JPG)
 
-# Recommendations:
+# Recommendations
 Based on the insights and findings above, the marketing team should consider the following:
 1. **Mobile Traffic's Higher Bounce Rate**: Mobile users exhibit a high bounce rate of 27.93%, necessitating immediate action. Prioritize responsive design enhancements, image optimization, and improved server response times to boost user engagement and reduce bounce rates.
 2. **Sessions from Social Media**: With increasing social media engagement, explore targeted campaigns on platforms like Instagram and TikTok. Developing content strategies that focus on visual storytelling may enhance user engagement and further improve average time on page.
