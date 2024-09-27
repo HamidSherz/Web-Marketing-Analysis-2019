@@ -22,13 +22,13 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 The main database for this project consists of approximately 250,000 rows, capturing a wide range of user interactions and website metrics. The data structure includes multiple tables that contain essential information on user sessions, page views, and engagement metrics. An Entity Relationship Diagram (ERD) is provided below to illustrate the relationships between these tables.
 
-![Entity Relationship Diagram](path_to_erd_image)
+![ERD](visuals/ERD.JPG)
 
 # Executive Summary
 
 This analysis reveals critical insights into user engagement across devices and channels. Mobile bounce rates are alarmingly high at 27.93%, highlighting the urgent need for enhanced mobile optimization. In contrast, Organic Search performs well with a bounce rate of 17.94%, reflecting effective SEO strategies. However, Social Media (25.46%) and Display (26.76%) are underperforming, suggesting issues with content relevance and audience alignment. Addressing these gaps will be key to improving overall user engagement and driving higher traffic volumes.
 
-![Bounce rate overview](Web-Marketing-Analysis-2019/Visuals/Bounce_rate_overview.JPG)
+![Bounce rate overview](Visuals/Bounce_rate_overview.JPG)
 
 # Insights Deep Dive
 
@@ -39,7 +39,7 @@ In contrast, desktop users engage more deeply, averaging 109 seconds on page (dr
 
 Additionally, Display ads exhibited a significant spike in engagement, averaging 426 seconds on page in Q2 2018. This suggests effective ad placement and content alignment, highlighting the importance of ongoing optimization in ad strategies to maintain and enhance user engagement.
 
-![Mobile v Desktop](Web-Marketing-Analysis-2019/Visuals/Mobile_v_Desktop.JPG)
+![Mobile v Desktop](Visuals/Mobile_v_Desktop.JPG)
 
 ## Channel Performance:
 Organic Search shows a robust bounce rate of 17.94%, which is 4.5% below the overall average of 22.4%, indicating effective SEO alignment with user intent. However, the average time on page is only 101 seconds, with sessions averaging 1.3. This suggests that while traffic is well-targeted, there may be opportunities to enhance content to retain visitor interest better.
@@ -48,7 +48,7 @@ Referral traffic performs similarly well, with a bounce rate of 17.38%, also 5.1
 
 Social Media, despite its high bounce rate of 25.46%, has users who view an average of 3.1 pages but spend just 79 seconds on a page—suggesting users are quickly scrolling through content without deep interaction. Sessions per user are 2.2, which is encouraging for repeat visits but suggests that optimizing content to hold attention could further improve this channel’s performance.
 
-![Channel bounce rates](Web-Marketing-Analysis-2019/Visuals/Channel_bounce_rates.JPG)
+![Channel bounce rates](Visuals/Channel_bounce_rates.JPG)
 
 Direct traffic sees an average time on page of 97 seconds and 3.5 page views, but a bounce rate of 24.45% highlights a need for better-tailored landing experiences for these visitors. The average time on page suggests users are somewhat engaged, but the bounce rate indicates they may not be finding what they expect, which calls for a review of landing page content and user experience.
 
@@ -56,7 +56,7 @@ Paid Search has a bounce rate of 22.82% and an average time on page of 77 second
 
 Display channels perform well in page views (3.9) and time on page (147 seconds) but suffer from a high bounce rate of 26.76%, indicating potential misalignment in audience targeting or content relevance. The recent peak in Q2 2019 continues an upward trend in bounce rates, rising from its low of 15% in Q2 2018. This suggests a need for a thorough review of content and audience alignment for display ads to reverse this trend.
 
-![Display bounce rate](Web-Marketing-Analysis-2019/Visuals/Display_bounce_rate.JPG)
+![Display bounce rate](Visuals/Display_bounce_rate.JPG)
 
 ## Device Usage Trends:
 Desktop users initially led with the longest average time on page, reaching 183 seconds in Q2 2017, but this has steadily declined to 98 seconds by Q3 2019. This drop suggests users may not be finding content as engaging as before, necessitating ongoing investment in high-quality, relevant content that aligns with desktop users' needs.
@@ -65,7 +65,7 @@ Mobile users show a different trend: although they have the highest session coun
 
 Tablet usage remains low and inconsistent, with time on page and engagement metrics underperforming compared to other devices. This points to a potential opportunity to develop more engaging content and user experiences tailored specifically to tablet users, who represent an underserved market segment with room for growth.
 
-![Average times by device](Web-Marketing-Analysis-2019/Visuals/Average_times_by_device.JPG)
+![Average times by device](Visuals/Average_times_by_device.JPG)
 
 # Recommendations:
 Based on the insights and findings above, the marketing team should consider the following:
