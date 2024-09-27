@@ -3,12 +3,12 @@
 This analysis focuses on a mid-sized e-commerce company in the office supplies and electronics sector, operational for several years. The company employs a business model that combines direct online sales with diverse digital marketing strategies. Key metrics of interest include user engagement, website performance, and conversion rates.
 
 The analysis focused on the following key performance indicators (KPIs) to assess the online presence:
-- Average Bounce Rate
-- Average Page Views
-- Average Time on Page
-- Average Sessions
+- **Average Bounce Rate**
+- **Average Page Views**
+- **Average Time on Page**
+- **Average Sessions**
 
-Our North Star metric is Average Time on Page, serving as a crucial indicator of user engagement.
+Our **North Star** metric is **Average Time on Page**, serving as a crucial indicator of user engagement.
 
 Insights and recommendations are provided on the following key areas:
 1. **User Engagement Optimization**: Identifying devices and channels with higher bounce rates and lower engagement to enhance user experience and content relevance.
@@ -16,13 +16,14 @@ Insights and recommendations are provided on the following key areas:
 3. **Resource Allocation**: Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](link).
-An interactive Tableau dashboard used to report and explore sales trends can be found [here](link).
+
+An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://github.com/HamidSherz/Web-Marketing-Analysis-2019/data_cleanup.sql).
 
 # Data Structure & Initial Checks
 
 The main database for this project consists of approximately 250,000 rows, capturing a wide range of user interactions and website metrics. The data structure includes multiple tables that contain essential information on user sessions, page views, and engagement metrics. An Entity Relationship Diagram (ERD) is provided below to illustrate the relationships between these tables.
 
-![ERD](visuals/ERD.JPG)
+![ERD](Visuals/ERD.JPG)
 
 # Executive Summary
 
