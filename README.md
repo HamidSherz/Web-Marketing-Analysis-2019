@@ -15,7 +15,8 @@ Insights and recommendations are provided on the following key areas:
 2. **Performance Measurement**: Analyzing how different devices and traffic channels influence key metrics like page views and session duration to evaluate marketing effectiveness. Additionally, tracking performance trends over time to assess the impact of past optimizations.
 3. **Resource Allocation**: Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](link).
+
+The SQL queries used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
 
 An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://github.com/HamidSherz/Web-Marketing-Analysis-2019/data_cleanup.sql).
 
