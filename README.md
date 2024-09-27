@@ -1,4 +1,6 @@
-# Project Background
+# Web Marketing Data Analysis
+
+## Project Background
 
 This analysis focuses on a mid-sized e-commerce company in the office supplies and electronics sector, operational for several years. The company employs a business model that combines direct online sales with diverse digital marketing strategies. Key metrics of interest include user engagement, website performance, and conversion rates.
 
