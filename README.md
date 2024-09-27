@@ -16,9 +16,9 @@ Insights and recommendations are provided on the following key areas:
 3. **Resource Allocation**: Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
 
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
+The **SQL queries** used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
 
-An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://github.com/HamidSherz/Web-Marketing-Analysis-2019/data_cleanup.sql).
+An interactive **Tableau dashboard** used to report and explore sales trends can be found [here](https://github.com/HamidSherz/Web-Marketing-Analysis-2019/data_cleanup.sql).
 
 # Data Structure & Initial Checks
 
