@@ -20,7 +20,7 @@ Insights and recommendations are provided on the following key areas:
 
 The **SQL queries** used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
 
-An interactive **Tableau dashboard** used to report and explore sales trends can be found [here](https://github.com/HamidSherz/Web-Marketing-Analysis-2019).
+An interactive **Tableau dashboard** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardsolved/MarketingDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 The processed **dataset** for this analysis can be accessed [here](https://docs.google.com/spreadsheets/d/188wNbFxbYcl5e9wCJU6vVWpz04zDUFDOYgOxyP1ilU0/edit?usp=sharing).
 
