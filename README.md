@@ -13,9 +13,9 @@ The analysis focused on the following key performance indicators (KPIs) to asses
 Our **North Star** metric is **Average Time on Page**, serving as a crucial indicator of user engagement.
 
 Insights and recommendations are provided on the following key areas:
-1. **User Engagement Optimization**: Identifying devices and channels with higher bounce rates and lower engagement to enhance user experience and content relevance.
-2. **Performance Measurement**: Analyzing how different devices and traffic channels influence key metrics like page views and session duration to evaluate marketing effectiveness. Additionally, tracking performance trends over time to assess the impact of past optimizations.
-3. **Resource Allocation**: Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
+- User Engagement Optimization: Identifying devices and channels with higher bounce rates and lower engagement to enhance user experience and content relevance.
+- Performance Measurement: Analyzing how different devices and traffic channels influence key metrics like page views and session duration to evaluate marketing effectiveness. Additionally, tracking performance trends over time to assess the impact of past optimizations.
+- Resource Allocation: Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
 
 
 The **SQL queries** used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
