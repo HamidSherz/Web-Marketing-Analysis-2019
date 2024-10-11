@@ -2,33 +2,35 @@
 
 ## Project Background
 
-This analysis focuses on a mid-sized e-commerce company in the office supplies and electronics sector, operational for several years. The company employs a business model that combines direct online sales with diverse digital marketing strategies. Key metrics of interest include user engagement, website performance, and conversion rates.
+This analysis focuses on a mid-sized e-commerce company specializing in digital products and online services, operational for several years. The company combines direct online sales with a range of digital marketing strategies. The data analysed spans from Q2 2017 to Q3 2019, with key metrics of interest including user engagement, website performance, and conversion rates.
 
 The analysis focused on the following key performance indicators (KPIs) to assess the online presence:
 - **Average Bounce Rate**
 - **Average Page Views**
 - **Average Time on Page**
 - **Average Sessions**
+- **Average Exits**
 
 Our **North Star** metric is **Average Time on Page**, serving as a crucial indicator of user engagement.
 
 Insights and recommendations are provided on the following key areas:
-- User Engagement Optimization: Identifying devices and channels with higher bounce rates and lower engagement to enhance user experience and content relevance.
-- Performance Measurement: Analyzing how different devices and traffic channels influence key metrics like page views and session duration to evaluate marketing effectiveness. Additionally, tracking performance trends over time to assess the impact of past optimizations.
-- Resource Allocation: Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
+- **User Engagement Optimization**: Identifying devices and channels with higher bounce rates and lower engagement to enhance user experience and content relevance.
+- **Performance Measurement**: Analyzing how different devices and traffic channels influence key metrics like page views and session duration to evaluate marketing effectiveness. Additionally, tracking performance trends over time to assess the impact of past optimizations.
+- **Resource Allocation**  : Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
 
 
 The **SQL queries** used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
 
-An interactive **Tableau dashboard** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardsolved/MarketingDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+A set of interactive **Tableau dashboards** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardFinal_17286622025260/MarketingDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
-The processed **dataset** for this analysis can be accessed [here](https://docs.google.com/spreadsheets/d/188wNbFxbYcl5e9wCJU6vVWpz04zDUFDOYgOxyP1ilU0/edit?usp=sharing).
 
 # Data Structure & Initial Checks
 
 The main database for this project consists of approximately 250,000 rows, capturing a wide range of user interactions and website metrics. The data structure includes multiple tables that contain essential information on user sessions, page views, and engagement metrics. An Entity Relationship Diagram (ERD) is provided below to illustrate the relationships between these tables.
 
 ![ERD](Visuals/ERD.JPG)
+
+The processed **dataset** for this analysis can be accessed [here](https://docs.google.com/spreadsheets/d/188wNbFxbYcl5e9wCJU6vVWpz04zDUFDOYgOxyP1ilU0/edit?usp=sharing).
 
 # Executive Summary
 
