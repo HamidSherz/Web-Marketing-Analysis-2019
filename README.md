@@ -42,6 +42,7 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 - **Sessions per User**: There was approx. 50% increase in sessions in the Direct channel between Q2 2017 and Q4 2017, primarily from Mobile devices. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
 
 ![Executive Summary-device](Visuals/Executive_Summary-device.JPG)
+![Executive_Summary-channel](Visuals/Executive_Summary-channel.JPG)
 
 # Insights Deep Dive
 
