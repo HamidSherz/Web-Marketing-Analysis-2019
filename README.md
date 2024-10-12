@@ -37,13 +37,16 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 
 ![Executive Summary overview](Visuals/Executive_Summary-overview.JPG)
 
-- **Average Time on Page**: The overall average time on page declined to 98 seconds by Q3 2019, but **tablet average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
-
-- **Mobile Bounce Rates**: Currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
-
-- **Sessions per User**: Sessions in the Direct channel increased by approximately 50% between Q2 2017 and Q4 2017, primarily from mobile devices, with session counts reaching as high as 8.6. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
+- **Overall Average Time on Page** declined to 98 seconds by Q3 2019, but **Tablet average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
 
 ![Executive Summary-device](Visuals/Executive_Summary-device.JPG)
+
+- **Mobile Bounce Rates** Currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
+
+- Additionally, **across all device categories, 2017 Q4 marks a significant peak in several KPIs**, including sessions and page views, indicating a possible external factor, such as a marketing campaign or seasonal trend. This surge should be analysed for future optimization opportunities.
+
+- **Sessions per User** in the Direct channel increased by approximately 50% between Q2 2017 and Q4 2017, primarily from mobile devices, with session counts reaching as high as 8.6. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
+
 ![Executive_Summary-channel](Visuals/Executive_Summary-channel.JPG)
 
 # Insights Deep Dive
@@ -57,24 +60,15 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 
 ![User Engagement](Visuals/User_Engagement.JPG)
 
-Additionally, across all device categories, 2017 Q4 marks a significant peak in several KPIs, including sessions and page views, indicating a possible external factor, such as a marketing campaign or seasonal trend. This surge should be analysed for future optimization opportunities.
-
-Mobile users have a high bounce rate of 27.93%, peaking at 29.92% in Q4 2017, which aligns with shorter attention spans and fragmented experiences. Despite frequent visits (3.1 sessions per user), mobile users explore less content (3 page views per session).
-
-In contrast, desktop users engage more deeply, averaging 109 seconds on page (dropping to 98 seconds by Q3 2019) and 3.4 page views per session, but have fewer overall sessions (1.4). These trends emphasize the need for mobile optimization, as mobile users visit more often but engage less deeply, while desktop users show higher engagement quality per visit but with lower frequency.
-
-Additionally, Display ads exhibited a significant spike in engagement, averaging 426 seconds on page in Q2 2018. This suggests effective ad placement and content alignment, highlighting the importance of ongoing optimization in ad strategies to maintain and enhance user engagement.
-
-![Mobile v Desktop](Visuals/Mobile_v_Desktop.JPG)
 
 ## Channel Performance:
-Organic Search shows a robust bounce rate of 17.94%, which is 4.5% below the overall average of 22.4%, indicating effective SEO alignment with user intent. However, the average time on page is only 101 seconds, with sessions averaging 1.3. This suggests that while traffic is well-targeted, there may be opportunities to enhance content to retain visitor interest better.
+- **Organic Search** shows a robust bounce rate of 17.94%, which is 4.5% below the overall average of 22.4%, indicating effective SEO alignment with user intent. However, the average time on page is only 101 seconds, with sessions averaging 1.3. This suggests that while traffic is well-targeted, there may be opportunities to enhance content to retain visitor interest better.
 
-Referral traffic performs similarly well, with a bounce rate of 17.38%, also 5.1% below the average, and a time on page of 122 seconds, leading to 3.5 page views per session. However, the low session count of 1.3 indicates room for improving user retention strategies, potentially through follow-up campaigns.
+- **Referral traffic** performs similarly well, with a bounce rate of 17.38%, also 5.1% below the average, and a time on page of 122 seconds, leading to 3.5 page views per session. However, the low session count of 1.3 indicates room for improving user retention strategies, potentially through follow-up campaigns.
+
+![Channel Trends-organic](Visuals/Channel_Trends-organic.JPG)
 
 Social Media, despite its high bounce rate of 25.46%, has users who view an average of 3.1 pages but spend just 79 seconds on a page—suggesting users are quickly scrolling through content without deep interaction. Sessions per user are 2.2, which is encouraging for repeat visits but suggests that optimizing content to hold attention could further improve this channel’s performance.
-
-![Channel bounce rates](Visuals/Channel_bounce_rates.JPG)
 
 Direct traffic sees an average time on page of 97 seconds and 3.5 page views, but a bounce rate of 24.45% highlights a need for better-tailored landing experiences for these visitors. The average time on page suggests users are somewhat engaged, but the bounce rate indicates they may not be finding what they expect, which calls for a review of landing page content and user experience.
 
