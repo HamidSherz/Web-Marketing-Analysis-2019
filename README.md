@@ -89,13 +89,20 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 # Recommendations
 Based on the insights and findings above, the marketing team should consider the following:
 1. **Mobile Traffic's Higher Bounce Rate**: With a 27.93% bounce rate, prioritize responsive design, image optimization, and faster server response times to boost engagement. Focus on targeted content strategies to improve the time on page, currently 56.5 seconds.
+
 2. **Exploit Tablet Growth**: With session times nearly doubling, develop content strategies to capitalize on this trend. Direct and Referral channels are performing well—enhancing campaigns here could yield significant benefits.
+
 3. **Enhance Social Media Engagement**: Rising social media sessions create opportunities for targeted campaigns on Instagram and TikTok. Focus on visual storytelling to improve user engagement and time on page
+
 4. **Improve Desktop Time on Page**: With time on page for desktop users down to 98 seconds, content audits and A/B testing are needed to identify and address underperforming areas.
+
 5. **Strengthen SEO for Organic Growth**: Organic traffic shows promise with a bounce rate of 17.94%. Refine long-tail keyword strategies and expand backlink efforts through industry partnerships to sustain growth. 
 
 # Assumptions and Caveats
 1. **Data Completeness**: The dataset is assumed to fully represent user engagement trends. However, missing or untracked sessions could affect insights, particularly for underperforming channels. Display data is slightly limited (5-10%), which may influence the understanding of certain periods.
+
 2. **User Behaviour Consistency**: The analysis assumes typical engagement patterns, but external factors like seasonal trends or untracked campaigns may influence certain channels. These should be considered when interpreting trends.
+
 3. **Device Impact on Engagement**: It's assumed that mobile bounce rates align with industry standards, though device types (e.g., iOS vs. Android) and evolving user expectations may impact results. This should be factored in when optimizing for mobile.
+
 4. **Traffic Source Reliability**: Organic search performance depends on stable search engine algorithms. Significant changes (e.g., Google updates) may affect traffic, requiring ongoing SEO adjustments.
