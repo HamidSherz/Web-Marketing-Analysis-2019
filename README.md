@@ -37,11 +37,11 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 
 ![Executive Summary overview](Visuals/Executive_Summary-overview.JPG)
 
-- **Average Time on Page**: The overall average time on page declined to 98 seconds by Q3 2019, but **tablet average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates have declined, reflecting enhanced user engagement in these key channels.
+- **Average Time on Page**: The overall average time on page declined to 98 seconds by Q3 2019, but **tablet average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
 
 - **Mobile Bounce Rates**: Currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
 
-- **Sessions per User**: There was approx. 50% increase in sessions in the Direct channel between Q2 2017 and Q4 2017, primarily from Mobile devices. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
+- **Sessions per User**: Sessions in the Direct channel increased by approximately 50% between Q2 2017 and Q4 2017, primarily from mobile devices, with session counts reaching as high as 8.6. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
 
 ![Executive Summary-device](Visuals/Executive_Summary-device.JPG)
 ![Executive_Summary-channel](Visuals/Executive_Summary-channel.JPG)
