@@ -1,5 +1,5 @@
 # Web Marketing Data Analysis
-
+![Banner](Visuals/Banner.JPG)
 ## Project Background
 
 This analysis focuses on a mid-sized e-commerce company specializing in digital products and online services, operational for several years. The company combines direct online sales with a range of digital marketing strategies. The data analysed spans from Q2 2017 to Q3 2019, with key metrics of interest including user engagement, website performance, and conversion rates.
