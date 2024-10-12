@@ -37,7 +37,7 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 
 ![Executive Summary overview](Visuals/Executive_Summary-overview.JPG)
 
-- **Average Time on Page**: The overall average time on page declined to 98 seconds by Q3 2019, but tablet average time on page nearly doubled since Q4 2018, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates have declined, reflecting enhanced user engagement in these key channels.
+- **Average Time on Page**: The overall average time on page declined to 98 seconds by Q3 2019, but **tablet average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates have declined, reflecting enhanced user engagement in these key channels.
 
 - **Mobile Bounce Rates**: Currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
 
@@ -49,6 +49,16 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 # Insights Deep Dive
 
 ## User Engagement Metrics:
+- **Mobile users** have a persistently high bounce rate of 27.9%, peaking at 29.9% in Q4 2017. This suggests mobile users face challenges with engagement, requiring immediate enhancements to mobile landing pages. Despite a higher session frequency (3.1 sessions per user), mobile users explore relatively less content (3 page views per session). The average time on page dipped to its lowest at the start of 2018 and has been gradually improving, currently at 56 seconds. Enhancing mobile user experiences remains essential.
+
+- **Tablet users** have shown significant improvements. Bounce rates declined from 26% in Q4 2017 to 16.5%, and average time on page nearly doubled from 47 seconds in Q4 2018 to 116 seconds by Q3 2019. This improvement highlights successful engagement strategies, particularly through Direct and Referral channels.
+
+- **Desktop users** continue to demonstrate deeper engagement, with time on page starting at 109 seconds and decreasing to 98 seconds by Q3 2019. Bounce rates are stable (18-21%), and desktop users average 3.4 page views per session but visit less frequently (1.4 sessions per user). Desktop performance, though declining, remains robust relative to other devices.
+
+![User Engagement](Visuals/User_Engagement.JPG)
+
+Additionally, across all device categories, 2017 Q4 marks a significant peak in several KPIs, including sessions and page views, indicating a possible external factor, such as a marketing campaign or seasonal trend. This surge should be analysed for future optimization opportunities.
+
 Mobile users have a high bounce rate of 27.93%, peaking at 29.92% in Q4 2017, which aligns with shorter attention spans and fragmented experiences. Despite frequent visits (3.1 sessions per user), mobile users explore less content (3 page views per session).
 
 In contrast, desktop users engage more deeply, averaging 109 seconds on page (dropping to 98 seconds by Q3 2019) and 3.4 page views per session, but have fewer overall sessions (1.4). These trends emphasize the need for mobile optimization, as mobile users visit more often but engage less deeply, while desktop users show higher engagement quality per visit but with lower frequency.
