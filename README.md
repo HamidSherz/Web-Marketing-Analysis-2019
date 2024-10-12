@@ -26,11 +26,11 @@ The main database for this project consists of approximately 250,000 rows, captu
 
 ![ERD](Visuals/ERD.JPG)
 
-The processed **dataset** for this analysis can be accessed [here](https://docs.google.com/spreadsheets/d/188wNbFxbYcl5e9wCJU6vVWpz04zDUFDOYgOxyP1ilU0/edit?usp=sharing).
+The processed **Dataset** for this analysis can be accessed [here](https://docs.google.com/spreadsheets/d/188wNbFxbYcl5e9wCJU6vVWpz04zDUFDOYgOxyP1ilU0/edit?usp=sharing).
 
 The **SQL queries** used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
 
-A set of interactive **Tableau dashboards** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardFinal_17286652746830/MarketingDashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). Additionally, you will find snapshots from these dashboards throughout the report, highlighting key insights.
+A set of interactive **Tableau dashboards** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardFinal_17286652746830/ChannelDashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). Additionally, you will find snapshots from these dashboards throughout the report, highlighting key insights.
 
 # Executive Summary
 
