@@ -20,9 +20,6 @@ Insights and recommendations are provided on the following key areas:
 
 
 
-A set of interactive **Tableau dashboards** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardFinal_17286652746830/MarketingDashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). Additionally, you will find snapshots from these dashboards throughout the report, highlighting key insights.
-
-
 # Data Structure & Initial Checks
 
 The main database for this project consists of approximately 250,000 rows, capturing a wide range of user interactions and website metrics. The data structure includes multiple tables that contain essential information on user sessions, page views, and engagement metrics. An Entity Relationship Diagram (ERD) is provided below to illustrate the relationships between these tables.
@@ -33,19 +30,21 @@ The processed **dataset** for this analysis can be accessed [here](https://docs.
 
 The **SQL queries** used to inspect and clean the data for this analysis can be found [here](./data_cleanup.sql).
 
+A set of interactive **Tableau dashboards** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardFinal_17286652746830/MarketingDashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). Additionally, you will find snapshots from these dashboards throughout the report, highlighting key insights.
+
 # Executive Summary
 
 ![Executive Summary overview](Visuals/Executive_Summary-overview.JPG)
 
-- **Overall Average Time on Page** declined to 98 seconds by Q3 2019, but **Tablet average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
+- Overall Average Time on Page declined to 98 seconds by Q3 2019, but **Tablets average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
 
 ![Executive Summary-device](Visuals/Executive_Summary-device.JPG)
 
-- **Mobile Bounce Rates** Currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
+- **Mobile Bounce Rates** currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
 
 - Additionally, **across all device categories, 2017 Q4 marks a significant peak in several KPIs**, including sessions and page views, indicating a possible external factor, such as a marketing campaign or seasonal trend. This surge should be analysed for future optimization opportunities.
 
-- **Sessions per User** in the Direct channel increased by approximately 50% between Q2 2017 and Q4 2017, primarily from mobile devices, with session counts reaching as high as 8.6. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
+- **Sessions per User in the Direct channel increased by approximately 50% between Q2 2017 and Q4 2017, primarily from mobile devices**, with session counts reaching as high as 8.6. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
 
 ![Executive_Summary-channel](Visuals/Executive_Summary-channel.JPG)
 
@@ -62,40 +61,41 @@ The **SQL queries** used to inspect and clean the data for this analysis can be 
 
 
 ## Channel Performance:
-- **Organic Search** shows a robust bounce rate of 17.94%, which is 4.5% below the overall average of 22.4%, indicating effective SEO alignment with user intent. However, the average time on page is only 101 seconds, with sessions averaging 1.3. This suggests that while traffic is well-targeted, there may be opportunities to enhance content to retain visitor interest better.
+- **Organic Search**: A stable performer, with bounce rates between 17% and 19%, which is 4.5% below the overall average. The average time on page of 101 seconds leaves room for improvement in retaining highly targeted traffic longer.
 
-- **Referral traffic** performs similarly well, with a bounce rate of 17.38%, also 5.1% below the average, and a time on page of 122 seconds, leading to 3.5 page views per session. However, the low session count of 1.3 indicates room for improving user retention strategies, potentially through follow-up campaigns.
+- **Referral traffic**: Consistently good, with bounce rates at 17.38% (5.1% below the average), but lower session counts (1.3 per user). Time on page is strong at 122 seconds, suggesting room to enhance retention strategies for referral traffic.
 
 ![Channel Trends-organic](Visuals/Channel_Trends-organic.JPG)
 
-Social Media, despite its high bounce rate of 25.46%, has users who view an average of 3.1 pages but spend just 79 seconds on a page—suggesting users are quickly scrolling through content without deep interaction. Sessions per user are 2.2, which is encouraging for repeat visits but suggests that optimizing content to hold attention could further improve this channel’s performance.
+- **Social Media**: Bounce rates have improved, declining from 33.3% in Q3 2017 to 24.6%. However, time on page remains low at 79 seconds, and users tend to skim through content quickly. The sessions per user rate of 2.2 suggests repeat visits, but deeper content engagement is needed.
 
-Direct traffic sees an average time on page of 97 seconds and 3.5 page views, but a bounce rate of 24.45% highlights a need for better-tailored landing experiences for these visitors. The average time on page suggests users are somewhat engaged, but the bounce rate indicates they may not be finding what they expect, which calls for a review of landing page content and user experience.
+- **Direct traffic**: Saw a significant spike in Q4 2017, with sessions per user jumping to 5.6. However, sustaining long-term interest has been challenging. While time on page improved from 22.7 seconds in Q4 2017, ongoing optimization of content and landing pages is necessary to maintain engagement.
 
-Paid Search has a bounce rate of 22.82% and an average time on page of 77 seconds, with users viewing 3.2 pages per session. While these figures suggest reasonable engagement, the low time on page indicates users may not be fully engaging with the content. To optimize resource allocation, consider enhancing landing pages and ensuring ad alignment with user expectations to maximize ROI from this channel.
+- **Paid Search**: After peaking at a bounce rate of 25.6% in Q3 2017, rates have stabilized at 22.2%. However, the average time on page remains low at 77 seconds, indicating a need for better ad targeting and landing page alignment to increase engagement and ROI.
 
-Display channels perform well in page views (3.9) and time on page (147 seconds) but suffer from a high bounce rate of 26.76%, indicating potential misalignment in audience targeting or content relevance. The recent peak in Q2 2019 continues an upward trend in bounce rates, rising from its low of 15% in Q2 2018. This suggests a need for a thorough review of content and audience alignment for display ads to reverse this trend.
+- **Display channels**: Display performance spiked in Q2 2018, with users spending an impressive average of 370 seconds on page. However, this was followed by a significant decline in average time on page and a surge in bounce rates, which increased from 15.1% in Q2 2018 to 30% by Q4 2018. Despite average page views of 3.9, the rising bounce rate indicates the need for refined audience targeting and improved content relevance to retain user engagement.
 
-![Display bounce rate](Visuals/Display_bounce_rate.JPG)
+![Channel Trends-organic](Visuals/Channel_Trends-paid.JPG)
 
 ## Device Usage Trends:
-Desktop users initially led with the longest average time on page, reaching 183 seconds in Q2 2017, but this has steadily declined to 98 seconds by Q3 2019. This drop suggests users may not be finding content as engaging as before, necessitating ongoing investment in high-quality, relevant content that aligns with desktop users' needs.
+- **Desktop users**: Started with high engagement levels, averaging 183 seconds per page in Q2 2017, but this steadily dropped to 98 seconds by Q3 2019. The decreasing time on page suggests a need for more engaging desktop content to maintain previous performance levels.
 
-Mobile users show a different trend: although they have the highest session count (3.1), their average time on page is shorter, indicating a fragmented user experience. The high bounce rate and low time on page suggest that mobile optimization and content accessibility improvements could help retain mobile visitors more effectively.
+- **Mobile users**: Despite generating the highest session count (3.1 per user), mobile users show shorter average time on page and higher bounce rates. This indicates a fragmented user experience, requiring enhanced mobile optimization and better content accessibility to retain mobile visitors longer.
 
-Tablet usage remains low and inconsistent, with time on page and engagement metrics underperforming compared to other devices. This points to a potential opportunity to develop more engaging content and user experiences tailored specifically to tablet users, who represent an underserved market segment with room for growth.
+- **Tablet users**: Show significant growth in engagement, with average time on page nearly doubling from 47 seconds in Q4 2018 to 116 seconds by Q3 2019. This improvement stems from successful strategies targeting tablet users, particularly through Direct and Referral channels. With a historically lower performance, this upward trend presents a valuable opportunity to invest further in tablet-specific engagement strategies.
 
-![Average times by device](Visuals/Average_times_by_device.JPG)
+![Device](Visuals/Device.JPG)
 
 # Recommendations
 Based on the insights and findings above, the marketing team should consider the following:
-1. **Mobile Traffic's Higher Bounce Rate**: Mobile users exhibit a high bounce rate of 27.93%, necessitating immediate action. Prioritize responsive design enhancements, image optimization, and improved server response times to boost user engagement and reduce bounce rates.
-2. **Sessions from Social Media**: With increasing social media engagement, explore targeted campaigns on platforms like Instagram and TikTok. Developing content strategies that focus on visual storytelling may enhance user engagement and further improve average time on page.
-3. **Decline in Time on Page**: The average time on page for desktop users has dropped to 98 seconds, suggesting potential content issues. Conduct content audits on underperforming pages, gather user feedback, and implement A/B testing to identify improvement areas.
-4. **SEO Performance and Organic Traffic Growth**: The rise in organic traffic, with a 17.94% bounce rate, indicates positive SEO results. Refine keyword strategies by utilizing long-tail keywords and enhance backlink initiatives through partnerships with industry blogs to further capitalize on this growth.
+1. **Mobile Traffic's Higher Bounce Rate**: With a 27.93% bounce rate, prioritize responsive design, image optimization, and faster server response times to boost engagement. Focus on targeted content strategies to improve the time on page, currently 56.5 seconds.
+2. **Exploit Tablet Growth**: With session times nearly doubling, develop content strategies to capitalize on this trend. Direct and Referral channels are performing well—enhancing campaigns here could yield significant benefits.
+3. **Enhance Social Media Engagement**: Rising social media sessions create opportunities for targeted campaigns on Instagram and TikTok. Focus on visual storytelling to improve user engagement and time on page
+4. **Improve Desktop Time on Page**: With time on page for desktop users down to 98 seconds, content audits and A/B testing are needed to identify and address underperforming areas.
+5. **Strengthen SEO for Organic Growth**: Organic traffic shows promise with a bounce rate of 17.94%. Refine long-tail keyword strategies and expand backlink efforts through industry partnerships to sustain growth. 
 
 # Assumptions and Caveats
-1. **Data Completeness**: It is assumed that the dataset provided is comprehensive and accurately reflects overall user engagement trends. However, missing or untracked sessions could impact insights, especially when allocating resources to underperforming channels.
-2. **User Behaviour Consistency**: The analysis assumes that user behaviour patterns observed reflect typical engagement. External factors, such as seasonal trends or untracked marketing campaigns, may have influenced certain channels like Social Media and Paid Search, affecting the trends over time.
-3. **Device Influence on Engagement**: The assumption is that higher mobile bounce rates align with industry standards, though specific device types (e.g., iOS vs. Android) and evolving user expectations may influence results. These considerations are important when planning mobile optimizations.
-4. **Traffic Source Reliability**: Organic search performance assumes that search engine algorithms were stable throughout the analysis. Significant algorithm changes (e.g., Google updates) could have altered traffic trends, requiring adjustments to SEO strategies.
+1. **Data Completeness**: The dataset is assumed to fully represent user engagement trends. However, missing or untracked sessions could affect insights, particularly for underperforming channels. Display data is slightly limited (5-10%), which may influence the understanding of certain periods.
+2. **User Behaviour Consistency**: The analysis assumes typical engagement patterns, but external factors like seasonal trends or untracked campaigns may influence certain channels. These should be considered when interpreting trends.
+3. **Device Impact on Engagement**: It's assumed that mobile bounce rates align with industry standards, though device types (e.g., iOS vs. Android) and evolving user expectations may impact results. This should be factored in when optimizing for mobile.
+4. **Traffic Source Reliability**: Organic search performance depends on stable search engine algorithms. Significant changes (e.g., Google updates) may affect traffic, requiring ongoing SEO adjustments.
