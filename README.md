@@ -75,7 +75,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 - **Display channels**: Display performance spiked in Q2 2018, with users spending an impressive average of 370 seconds on page. However, this was followed by a significant decline in average time on page and a surge in bounce rates, which increased from 15.1% in Q2 2018 to 30% by Q4 2018. Despite average page views of 3.9, the rising bounce rate indicates the need for refined audience targeting and improved content relevance to retain user engagement.
 
-![Channel Trends-organic](Visuals/Channel_Trends-paid.JPG)
+![Channel Trends-organic](Visuals/Channel_trends.paid.JPG)
 
 ## Device Usage Trends:
 - **Desktop users**: Started with high engagement levels, averaging 183 seconds per page in Q2 2017, but this steadily dropped to 98 seconds by Q3 2019. The decreasing time on page suggests a need for more engaging desktop content to maintain previous performance levels.
