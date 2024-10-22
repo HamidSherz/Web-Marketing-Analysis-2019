@@ -36,7 +36,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 ![Executive Summary overview](Visuals/Executive_Summary.overview.JPG)
 
-- Overall Average Time on Page declined to 98 seconds by Q3 2019, but **Tablets average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
+- Overall Average Time on Page declined to 98 seconds by Q3 2019, but for **Tablets** it has nearly doubled since Q4 2018, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
 
 ![Executive Summary-device](Visuals/Executive_Summary.Device.JPG)
 
