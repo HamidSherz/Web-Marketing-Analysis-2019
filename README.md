@@ -57,7 +57,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 - **Desktop users** continue to demonstrate deeper engagement, with time on page starting at 109 seconds and decreasing to 98 seconds by Q3 2019. Bounce rates are stable (18-21%), and desktop users average 3.4 page views per session but visit less frequently (1.4 sessions per user). Desktop performance, though declining, remains robust relative to other devices.
 
-![User Engagement](Visuals/User.engagement.JPG)
+![User Engagement](Visuals/User.Engagement.JPG)
 
 
 ## Channel Performance:
