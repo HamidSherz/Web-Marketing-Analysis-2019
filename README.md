@@ -19,7 +19,7 @@ Insights and recommendations are provided on the following key areas:
 - **Resource Allocation**  : Understanding which devices and channels perform best to optimize marketing resource allocation and improve ROI through targeted strategies, such as mobile design enhancements and SEO improvements.
 
 
-A set of interactive **Tableau dashboards** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardFinal_17286652746830/ChannelDashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). Additionally, you will find snapshots from these dashboards throughout the report, highlighting key insights.
+A set of interactive **Tableau dashboards** used to report and explore sales trends can be found [here](https://public.tableau.com/views/MarketingDashboardFinal_17296088235960/MarketingDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). Additionally, you will find snapshots from these dashboards throughout the report, highlighting key insights.
 
 # Data Structure & Initial Checks
 
