@@ -38,7 +38,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 - Overall Average Time on Page declined to 98 seconds by Q3 2019, but **Tablets average time on page nearly doubled since Q4 2018**, primarily due to significant improvements in Direct and Referral channels. Additionally, tablet bounce rates and exit rates have declined, reflecting enhanced user engagement in these key channels.
 
-![Executive Summary-device](Visuals/Executive_Summary.device.JPG)
+![Executive Summary-device](Visuals/Executive_Summary.Device.JPG)
 
 - **Mobile Bounce Rates** currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
 
