@@ -65,7 +65,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 - **Referral traffic**: Consistently good, with bounce rates at 17.38% (5.1% below the average), but lower session counts (1.3 per user). Time on page is strong at 122 seconds, suggesting room to enhance retention strategies for referral traffic.
 
-![Channel Trends-organic](Visuals/Channel_Trends-organic.JPG)
+![Channel Trends-organic](Visuals/Channel_trends.organic.JPG)
 
 - **Social Media**: Bounce rates have improved, declining from 33.3% in Q3 2017 to 24.6%. However, time on page remains low at 79 seconds, and users tend to skim through content quickly. The sessions per user rate of 2.2 suggests repeat visits, but deeper content engagement is needed.
 
