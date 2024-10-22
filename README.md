@@ -46,7 +46,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 - **Sessions per User in the Direct channel increased by approximately 50% between Q2 2017 and Q4 2017, primarily from mobile devices**, with session counts reaching as high as 8.6. During this period, both page views and time on page improved notably for mobile users. However, ongoing efforts are required to replicate and maintain these gains, and to enhance ROI, particularly as the overall average time on page has since declined.
 
-![Executive_Summary-channel](Visuals/Executive_Summary.channel.JPG)
+![Executive_Summary-channel](Visuals/Executive_Summary.Channel.JPG)
 
 # Insights Deep Dive
 
