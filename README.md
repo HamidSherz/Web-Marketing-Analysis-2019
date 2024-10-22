@@ -84,7 +84,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 - **Tablet users**: Show significant growth in engagement, with average time on page nearly doubling from 47 seconds in Q4 2018 to 116 seconds by Q3 2019. This improvement stems from successful strategies targeting tablet users, particularly through Direct and Referral channels. With a historically lower performance, this upward trend presents a valuable opportunity to invest further in tablet-specific engagement strategies.
 
-![Device](Visuals/Device.JPG)
+![Device](Visuals/device.JPG)
 
 # Recommendations
 Based on the insights and findings above, the marketing team should consider the following:
