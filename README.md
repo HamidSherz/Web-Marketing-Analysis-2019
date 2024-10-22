@@ -40,7 +40,7 @@ A set of interactive **Tableau dashboards** used to report and explore sales tre
 
 ![Executive Summary-device](Visuals/Executive_Summary.Device.JPG)
 
-- **Mobile Bounce Rates** currently in this quarter at 26.3%, indicating that mobile users are struggling with engagement. Immediate action is needed to enhance mobile landing pages to improve user experience.
+- **Mobile Bounce Rates** are currently at 26.3% in the final quarter, reflecting a steady decline over the previous quarters. However, mobile bounce rates have consistently remained higher compared to desktops or tablets throughout the period, signaling the need for immediate action to improve mobile landing pages and enhance user experience.
 
 - Additionally, **across all device categories, 2017 Q4 marks a significant peak in several KPIs**, including sessions and page views, indicating a possible external factor, such as a marketing campaign or seasonal trend. This surge should be analysed for future optimization opportunities.
 
